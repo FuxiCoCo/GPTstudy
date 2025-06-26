@@ -1,4 +1,6 @@
 function recommend() {
+  console.log("recommend() 執行中...");
+  
   const scrollType = document.getElementById("scrollType").value;
   const result = document.getElementById("result");
 
