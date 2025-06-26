@@ -16,5 +16,10 @@ function recommend() {
     message = "請選擇一種卷軸類型。";
   }
 
+  // 🖥️ 顯示推薦結果
   result.innerHTML = `<p>${message}</p>`;
+
+  // ✅ Console log 升級提示
+  console.log('%c推薦系統執行完成', 'color: #00f; font-weight: bold;');
+  console.log('%c推薦內容為：', 'color: orange;', message);
 }
