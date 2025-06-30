@@ -4,6 +4,12 @@ function recommend() {
   const scrollType = document.getElementById("scrollType").value;
   const result = document.getElementById("result");
 
+  function changeTitle() {
+  const title = document.getElementById("title");
+  title.innerHTML = "已進入推薦模式！";
+  title.style.color = "blue";
+}
+  
   let message = "";
 
   if (scrollType === "10%") {
